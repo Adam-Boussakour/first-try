@@ -1,0 +1,37 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+wp-config.php
+auth.json
+.npmrc
+*.pem
+*.key
+
+# Dependances, fichiers generes et sauvegardes
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+*.log
+*.sql
+*.sql.gz
+*.zip
+*.bak
+
+# Installation WordPress : seul le theme enfant est versionne
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/cache/
+
+# Systeme et editeurs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
